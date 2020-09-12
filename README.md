@@ -1,3 +1,8 @@
+### Template:
+- [ ] To learn
+- [x] Watched
+- [x] Ankified :rocket:
+
 ## Table of Contents
 
 
