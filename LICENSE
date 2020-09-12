@@ -19,3 +19,44 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+import re
+
+text = """
+- [x] [AVL 1 Introduction](https://www.youtube.com/watch?v=-9sHvAnLN_w&list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk&index=59&ab_channel=RobEdwards) (11:00)
+- [x] [AVL Tree 2 Nodes](https://www.youtube.com/watch?v=-9sHvAnLN_w&list=PLpPXw4zFa0uKKhaSz87IowJnOTzh9tiBk&index=59&ab_channel=RobEdwards) (3:00)
+"""
+
+def get_times_list(text):
+  regex = r'\(\d{1,2}:\d\d\)'
+  return re.findall(regex, text)
+
+def get_total_time_in_sec(times):
+  total_time_in_sec = 0
+  for time in times:
+    print(time)
+    isLongFormat = len(time) > 6
+    print(isLongFormat)
+    seconds = int(time[4:-1])
+    minutes = int(time[1:3]) if isLongFormat else int(time[1:2])
+    print(times)
+    total_time_in_sec += (minutes * 60) + seconds
+  return total_time_in_sec
+
+def seconds_to_time(total_seconds):
+  minutes = total_seconds // 60
+  hours = minutes // 60 if minutes >= 60 else 0 
+  seconds = total_seconds % 60
+  time = '(' + format_time(hours) + ':' + format_time(minutes) + ':' + format_time(seconds) + ')'
+  return time
+
+def format_time(time):
+  return str(time) if time >= 10 else '0' + str(time)
+
+def get_total_time(times):
+  print(times)
+  total_seconds = get_total_time_in_sec(times)
+  time = seconds_to_time(total_seconds)
+  return time
+
+print(get_total_time(get_times_list(text)))
