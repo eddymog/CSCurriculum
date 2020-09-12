@@ -1,4 +1,6 @@
 ## Table of Contents
+
+### Good Algo videos
 - The N Queens Placement Problem xxx
 - The 0/1 Knapsack Problem xxx
 - Knuth-Morris-Pratt Pattern Matching  xxx
