@@ -1,6 +1,8 @@
 # CSCurriculum
 
 Good videos:
+
+### Videos of Algorithms
 The N Queens Placement Problem xxx
 The 0/1 Knapsack Problem xxx
 Knuth-Morris-Pratt Pattern Matching  xxx
