@@ -1,9 +1,12 @@
 ## Table of Contents
 
+
+
+
 ### Good Algo videos
-- The N Queens Placement Problem xxx
-- The 0/1 Knapsack Problem xxx
-- Knuth-Morris-Pratt Pattern Matching  xxx
+- [x] The N Queens Placement Problem xxx :rocket:
+- [ ] The 0/1 Knapsack Problem xxx
+- [ ] Knuth-Morris-Pratt Pattern Matching  xxx
 - Implement An LRU Cache
 - Implement A Sudoku Solver
 - Implement a Max Stack
