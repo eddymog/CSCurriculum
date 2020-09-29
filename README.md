@@ -1067,12 +1067,11 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 
 - **Union-Find**
-    - [x] [Overview (07:42)](https://www.coursera.org/learn/data-structures/lecture/JssSY/overview)
-    - [ ] [Naive Implementation](https://www.coursera.org/learn/data-structures/lecture/EM5D0/naive-implementations)
-    - [ ] [Trees](https://www.coursera.org/learn/data-structures/lecture/Mxu0w/trees)
-    - [ ] [Union By Rank](https://www.coursera.org/learn/data-structures/lecture/qb4c2/union-by-rank)
-    - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
-    - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
+    - [ ] [Union Find Introduction (07:42)](https://www.youtube.com/watch?v=ibjEGG7ylHk&ab_channel=WilliamFiset)
+    - [ ] [Union Find Kruskal's Algorithm]()
+    - [ ] [Union Find - Union and Find Operations]()
+    - [ ] [Union Find Path Compression](https://www.youtube.com/watch?v=VHRhJWacxis&ab_channel=WilliamFiset)
+    - [ ] [Union Find Code]()
 
 - **More Dynamic Programming** (videos)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
