@@ -1022,9 +1022,12 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
 - ### Disjoint Sets & Union Find
-    - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://archive.org/details/ucberkeley_webcast_MAEGXTwmUsI)
-    - [ ] [Sedgewick Algorithms - Union-Find (6 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
-
+    - [ ] [Union Find Introduction](https://www.youtube.com/watch?v=ibjEGG7ylHk&ab_channel=WilliamFiset)
+    - [ ] [Union Find Kruskal's Algorithm]()
+    - [ ] [Union Find - Union and Find Operations]()
+    - [ ] [Union Find Path Compression](https://www.youtube.com/watch?v=VHRhJWacxis&ab_channel=WilliamFiset)
+    - [ ] [Union Find Code]()
+    
 - ### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
@@ -1064,14 +1067,6 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] D -[Dependency Inversion principle](http://www.oodesign.com/dependency-inversion-principle.html) | Reduce the dependency In composition of objects.
         - [ ] [Why Is The Dependency Inversion Principle And Why Is It Important](http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important)
         - [ ] [more flavor](http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en)
-
-
-- **Union-Find**
-    - [ ] [Union Find Introduction (07:42)](https://www.youtube.com/watch?v=ibjEGG7ylHk&ab_channel=WilliamFiset)
-    - [ ] [Union Find Kruskal's Algorithm]()
-    - [ ] [Union Find - Union and Find Operations]()
-    - [ ] [Union Find Path Compression](https://www.youtube.com/watch?v=VHRhJWacxis&ab_channel=WilliamFiset)
-    - [ ] [Union Find Code]()
 
 - **More Dynamic Programming** (videos)
     - [ ] [6.006: Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=19)
